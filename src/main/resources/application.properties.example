@@ -1,0 +1,16 @@
+# Скопируйте в application.properties и заполните значения.
+# Секреты можно передавать и через переменные окружения — они имеют приоритет.
+
+# Telegram
+bot.token=YOUR_BOT_TOKEN
+bot.username=YOUR_BOT_USERNAME
+
+# OpenRouter (AI-резюме новостей)
+openrouter.api.key=YOUR_OPENROUTER_API_KEY
+
+# База данных
+database.path=news.db
+
+# Парсинг
+news.max.per.request=5
+parsing.interval.minutes=30
